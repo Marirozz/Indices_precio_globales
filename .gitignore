@@ -75,7 +75,7 @@ Thumbs.db
 
 # Data files
 data/raw/*.xlsx
-data/processed/*.csv
+data/processed/*
 
 # Notebook
 notebook/Analisys_precios.ipynb

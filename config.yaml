@@ -1,0 +1,13 @@
+data:
+  raw: "data/raw/Monitoreo_Precios_Promedios_Globales_RD.xlsx"
+  processed_dir: "data/processed"
+
+imputation:
+  threshold_low: 15
+  threshold_high: 30
+
+anomalies:
+  threshold_pct: 40
+
+outliers:
+  zscore_threshold: 3
